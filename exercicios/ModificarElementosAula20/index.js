@@ -9,3 +9,9 @@ const SelecionaNome = (elemento) => document.getElementsByName(elemento);
 const tituloH1 = SelecionaTag("h1");
 
 tituloH1[0].innerText = "Mudou titulo";
+
+console.log(tituloH1[0].classList);
+
+//Documentação DOM
+//https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
+//https://developer.mozilla.org/en-US/docs/Web/API/Element
